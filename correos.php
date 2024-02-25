@@ -4,12 +4,13 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
+// DECLARAR AQUI CONSTANTES
 require_once "secreto.php";
+
 require 'vendor/autoload.php';
 
 
 $mail = new PHPMailer(true);
-// CAMBIAR AQUI EL CORREO A ENVIAR
 
 
 try {
